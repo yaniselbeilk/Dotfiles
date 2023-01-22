@@ -2,6 +2,10 @@
 
 PS1='🦊\w> '
 
+# set my favorite editor : neovim
+export EDITOR='nvim'
+export VISUAL='nvim'
+
 alias la='ls -a'
 alias ls='ls --color=auto'
 alias ll='ls -lav --ignore=..'   # show long listing of all except ".."
@@ -15,4 +19,3 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' # lin
 ## (you can write some initial letters of the command first).
 bind '"\e[A":history-search-backward'
 bind '"\e[B":history-search-forward'
-

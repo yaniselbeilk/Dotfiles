@@ -1,0 +1,3 @@
+[submodule ".config/neofetch/neofetch-theme"]
+	path = .config/neofetch/neofetch-theme
+	url = https://github.com/Chick2D/neofetch-themes.git

@@ -17,5 +17,7 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' # lin
 
 ## Use the up and down arrow keys for finding a command in history
 ## (you can write some initial letters of the command first).
-bind '"\e[A":history-search-backward'
-bind '"\e[B":history-search-forward'
+#bind '"\e[A":history-search-backward'
+#bind '"\e[B":history-search-forward'
+
+export PATH=$PATH:/home/yanis/.spicetify

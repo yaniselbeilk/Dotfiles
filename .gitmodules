@@ -1,3 +1,6 @@
 [submodule ".config/neofetch/neofetch-theme"]
 	path = .config/neofetch/neofetch-theme
 	url = https://github.com/Chick2D/neofetch-themes.git
+[submodule ".config/alacritty/themes"]
+	path = .config/alacritty/themes
+	url = https://github.com/alacritty/alacritty-theme.git

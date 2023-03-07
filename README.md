@@ -20,3 +20,7 @@ Set the flag showUntrackedFiles to no on this specific (local) repository:
 ```sh
 dotfiles config --local status.showUntrackedFiles no
 ```
+The last part is to update all the submodules in the projects :
+```sh
+dotfiles submodule update --init --recursive
+```

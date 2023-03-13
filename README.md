@@ -7,7 +7,7 @@ For installing my dotfiles, you need to copy-paste these bash command :
 ```sh
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 echo ".dotfiles" >> .gitignore
-git clone --bare https://gitlab.com/yaniselbeilk/dotfiles.git $HOME/.dotfiles
+git clone --bare https://github.com/yaniselbeilk/Dotfiles.git $HOME/.dotfiles
 ```
 
 Checkout the actual content from the bare repository to your $HOME:

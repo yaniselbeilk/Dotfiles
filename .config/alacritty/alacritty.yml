@@ -29,7 +29,7 @@ colors:
     white:   '0xacb0d0'
 
 window:
-  opacity: 0.95
+  opacity: 0.9
 
 font:
   size: 15

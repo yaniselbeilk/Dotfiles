@@ -115,9 +115,5 @@ if ! shopt -oq posix; then
 	fi
 fi
 
-export PATH=$PATH:/home/yanis/.spicetify
-export PATH=$PATH:/usr/local/flutter/bin
-export CHROME_EXECUTABLE=/usr/bin/firefox
-
 # Link to the repository dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'

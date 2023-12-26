@@ -128,9 +128,6 @@ input "type:keyboard" {
     bindsym $mod+3 workspace number 3
     bindsym $mod+4 workspace number 4
     bindsym $mod+5 workspace number 5
-    bindsym $mod+6 workspace number urgent
-    bindsym $mod+7 workspace number focused
-    bindsym $mod+8 workspace number default
 
     # Move focused container to workspace
     bindsym $mod+Shift+1 move container to workspace number 1
@@ -205,19 +202,18 @@ bindsym $mod+r mode "resize"
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
-#bar {
-#    position top
+bar {
+    position top
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
-#    status_command while date +'%Y-%m-%d %I:%M:%S %p'; do sleep 1; done
+    status_command while date +'%Y-%m-%d %I:%M:%S %p'; do sleep 1; done
 
-#    colors {
-#       statusline #ffffff
-#       background #323232
-#       inactive_workspace #32323200 #32323200 #5c5c5c
-#    }
-#}
-bar swaybar_command waybar
+    colors {
+       statusline #ffffff
+       background #323232
+       inactive_workspace #32323200 #32323200 #5c5c5c
+    }
+}
 
 include /etc/sway/config.d/*

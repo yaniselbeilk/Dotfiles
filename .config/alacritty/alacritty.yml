@@ -26,3 +26,8 @@ colors:
     magenta: '0xFFEE99'
     cyan:    '0x95E6CB'
     white:   '0xFFFFFF'
+
+font:
+  size: 15
+  normal:
+    family: "JetBrainsMono Nerd Font"

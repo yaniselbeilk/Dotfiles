@@ -34,3 +34,7 @@ font:
 
 window:
   opacity: .8
+  padding:
+    x: 10
+    y: 10
+ 

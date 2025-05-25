@@ -18,4 +18,5 @@ alias l='ls -CF'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
+export STARSHIP_CACHE=$HOME/.starship/cache
 eval -- "$(/usr/bin/starship init bash --print-full-init)"

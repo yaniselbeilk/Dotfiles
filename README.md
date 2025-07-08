@@ -1,5 +1,12 @@
 # Dotfiles
 
+## Necessary software preinstallation
+
+- [Alacritty](https://alacritty.org/)
+- [Neovim](https://neovim.io/)
+- [Doom Emacs](https://github.com/doomemacs/doomemacs)
+- [starships](https://starship.rs/)
+
 ## Installation of my dotfiles in a new system
 
 For installing my dotfiles, you need to copy-paste these bash command :

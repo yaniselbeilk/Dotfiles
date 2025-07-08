@@ -13,10 +13,11 @@ HISTFILESIZE=2000
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias vim='nvim'
 
 # Link to the repository dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
 export STARSHIP_CACHE=$HOME/.starship/cache
-eval -- "$(/usr/bin/starship init bash --print-full-init)"
+eval -- "$(/usr/local/bin/starship init bash --print-full-init)"

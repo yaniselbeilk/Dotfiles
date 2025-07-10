@@ -18,6 +18,7 @@ alias vim='nvim'
 # Link to the repository dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+export XDG_CONFIG_DIRS=$HOME/.config/bin:$PATH
 export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
 export STARSHIP_CACHE=$HOME/.starship/cache
 eval -- "$(/usr/local/bin/starship init bash --print-full-init)"
